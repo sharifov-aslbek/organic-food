@@ -1,0 +1,237 @@
+@media (max-width:1200px) {
+    .hero .bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero .bottom .cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .item .container .right .buttons .btns {
+        background: url(../Images/flower.svg) no-repeat center / cover;
+        padding: 40px 25px;
+    }
+
+    .item .container .right h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .item .container .right .subtitle {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .item .container .right .flower {
+        display: none;
+    }
+}
+
+@media (max-width:1020px) {
+    .service .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .service .container .right img {
+        display: none;
+    }
+
+    .reklama .container .left {
+        padding-right: 20px;
+    }
+
+}
+
+@media (max-width:990px) {
+    .header .container .navbar .img {
+        order: -1;
+        /* display: none; */
+    }
+
+    .header .container .navbar .left .menu li a {
+        font-size: 12px;
+    }
+
+    .hero .container .bottom .imgs img {
+        max-width: 700px;
+        width: 100%;
+    }
+    .hero .top .title {
+        font-size: 60px;
+    }
+
+    .item .container .left img {
+        width: 450px;
+    }
+
+    .about .container .right img {
+        width: 400px;
+    }
+
+    .footer .container .contents .content-one {
+        display: none;
+    }
+}
+
+@media (max-width:840px) {
+    .about .container .right img {
+        display: none;
+    }
+
+    .reklama .container .right h1 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width:780px) {
+    h1 {
+        font-size: 50px;
+
+    }
+
+    .navbar .right-content {
+        display: none;
+    }
+
+    .header .container .navbar .menu {
+        gap: 20px;
+    }
+
+    .hero .top .title {
+        font-size: 40px;
+    }
+
+    .hero .top .subtitle {
+        font-size: 12px;
+    }
+
+    .hero .bottom .imgs {
+        display: none;
+    }
+
+    .hero .bottom .cards {
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+
+    .item .container .left img {
+        display: none;
+    }
+
+    .reklama .container .right .subtitle {
+        font-size: 12px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width:576px) {
+    .header .container .navbar .left i {
+        display: block;
+    }
+
+    .header .container .navbar .left .menu {
+        display: none;
+    }
+
+    .hero .top .title {
+        font-size: 30px;
+    }
+
+    .hero .top .subtitle {
+        font-size: 10px;
+    }
+
+    .service .container .left h1 {
+        font-size: 55px;
+    }
+
+    .service .container .left .cards .card .text .uptitle {
+        display: none;
+    }
+
+    .service .container .left .cards .card:nth-child(2) {
+        padding: 15px 30px;
+    }
+
+    .service .container .left .subtitle {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .about .container .left .btm {
+        gap: 30px;
+    }
+
+    .reklama .container .left {
+        display: none;
+    }
+
+    .footer .container .contents {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 50px;
+    }
+
+    .footer .container .contents .last h4 {
+        font-size: 10px;
+    }
+
+    .footer .container .contents .last .imgs {
+        gap: 10px;
+    }
+
+}
+
+@media (max-width:455px) {
+    h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .hero .top .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .service .container .left h1 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    } 
+
+    .service .container .left .cards .card .text .title {
+        font-size: 12px;
+    }
+
+    .item .container .right .buttons .btns h3 {
+        font-size: 12px;
+    }
+
+    .about .container .left .btm .buttons .btn:first-child {
+        margin-right: 5px;
+        margin-bottom: 20px;
+    }
+
+    .footer .container .contents {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+@media (max-width:375px) {
+    .service .container .left h1 {
+        font-size: 25px;
+
+    }
+}
