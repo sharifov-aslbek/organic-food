@@ -168,6 +168,10 @@
         line-height: 20px;
     }
 
+    .service .container .left .cards .card .text .title {
+        width: 217px;
+    }
+
     .about .container .left .btm {
         gap: 30px;
     }
@@ -232,6 +236,9 @@
 @media (max-width:375px) {
     .service .container .left h1 {
         font-size: 25px;
+    }
 
+    .service .container .left .cards .card .text .title {
+        width: 130px;
     }
 }
